@@ -1,158 +1,180 @@
-header{
-    margin: 10px;
-    width: 99%;
-    background-color: lightblue;
+/*header{
+    background: linear-gradient(165deg, rgb(6, 6, 82) 0%, rgba(9,9,121,1) 35%, rgb(0, 153, 184) 75%);
+    height: 85px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+}
+nav{
+    background: linear-gradient(165deg, rgb(6, 6, 82) 0%, rgba(9,9,121,1) 35%, rgb(0, 153, 184) 75%);
     height: auto;
-    position: relative;
-    background: linear-gradient(10deg, black, darkred,red, #ff3838 );
-    font-family: Comic Sans MS, Comic Sans, cursive;
-}
-nav { 
-    width: 100%; 
-    height:auto; 
-    float:center; 
-    border: solid red 4px;
     text-align: center;
-    background: linear-gradient(10deg, black, darkred,red, #ff3838 );
-    margin-right: 10px;
-    position: relative;
-    }
-
-footer { background: orange; 
-    width:100%; 
-    height:70px; 
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    color: white;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+section{
+    background: linear-gradient(165deg, rgb(6, 6, 82) 0%, rgba(9,9,121,1) 35%, rgb(0, 153, 184) 75%);
+    width: 70%;
+    height: auto;
     float: left;
-    background: linear-gradient(10deg, black, darkred,red, #ff3838 );
-    font-family: Comic Sans MS, Comic Sans, cursive; 
 }
-h1{
+aside{
+    /*background: linear-gradient(165deg, rgb(6, 6, 82) 0%, rgba(9,9,121,1) 35%, rgb(0, 153, 184) 75%);
+    background: lightblue;
+    width: 30%;
+    height: auto;
+    float: right;
+}
+footer{
+    background: linear-gradient(165deg, rgb(6, 6, 82) 0%, rgba(9,9,121,1) 35%, rgb(0, 153, 184) 75%);
+    height: 85px;
     text-align: center;
-    font-family: Comic Sans MS, Comic Sans, cursive;
-    font-size: 60px;
-    color:white;
+    color: white;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+    padding: 5px;
+    float: left;
+}
+*/
+
+body {
+	margin:0; 
+padding:0; 
+text-align:center; } 
+
+header{
+height:90px; 
+background: linear-gradient(165deg, rgb(6, 6, 82) 0%, rgba(9,9,121,1) 35%, rgb(0, 153, 184) 75%);
+	margin-top:5px;
+	margin-bottom:15px;
+	margin-left:10px;
+	margin-right:10px;
+	
+	}
+	
+nav { background: linear-gradient(165deg, rgb(6, 6, 82) 0%, rgba(9,9,121,1) 35%, rgb(0, 153, 184) 75%);
+width:19%; 
+height:630px; 
+float:right; 
+border: 2px solid white; 
+margin-right:10px;
 }
 
-a:link{
-    color: lightblue;
-    padding: auto;
-    font-family: Noto Sans, sans-serif;
-}
-a:visited{
-    color: lightgreen;
-    text-decoration: underline;
-    padding: auto;
-    font-family: Noto Sans, sans-serif;
-}
-a:hover{
-    color: white;
-    font-size: 22px;
-    padding: auto;
-    font-family: Comic Sans MS, Comic Sans, cursive;
-}
-a:active{
-    color: white;
-    font-size: 25px;
-    padding: auto;
-    font-family: Comic Sans MS, Comic Sans, cursive;
-}
-h3{
-    text-align: center;
-    font-family: Comic Sans MS, Comic Sans, cursive;
-    font-size: 25px;
-    color: white;
-}
-section { background: black; 
-    width:65%; 
-    height:auto;  
-    text-align:center; 
-margin: auto;
-}
-    h2 {
-        font: 32px URW Chancery L, cursive;
-    color: white;
-            margin-left: 10px;
-            margin-right: 10px;
-    }
-    p{	font: 22px Arial, sans-serif; 
-        color: white; 
-    text-align: center;}
+section {background: linear-gradient(165deg, rgb(6, 6, 82) 0%, rgba(9,9,121,1) 35%, rgb(0, 153, 184) 75%);
+width:57%; 
+height: auto;  
+text-align:center; 
+margin-left: auto; 
+margin-right: auto;}
 
-    fieldset{
-        background-color: darkred;
-        margin-left: 15px;
-        margin-right: 15px;
-        margin-bottom: 15px;
-        font: 15px FreeMono, monospace;
-        color: white;
-    }
+footer {background: linear-gradient(165deg, rgb(6, 6, 82) 0%, rgba(9,9,121,1) 35%, rgb(0, 153, 184) 75%);
+width:99%; 
+height:80px; 
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: auto;
+margin-right: auto; }
 
-    .tabele{
-        max-width: 768px;
-        font-family: sans-serif;
-        background: linear-gradient(45deg, black, darkred,red, #ff3838 );
-        padding:40px 20px;
-        color:#fff;
-    }
-    
-    .tabele table{
-        width: 80%;
-        border-collapse: collapse;
-        margin: 0 auto;
-    }
-    
-    .tabele tr{
-        background: #000;
-        background: rgba(255,255,255,.3);
-        border-bottom:solid 1px #fff;
-        text-align: left;
-        color: white;
-    }
-    
-    .tabele tbody tr{
-        background: rgba(255, 255, 255, 0.322);
-    }
-    
-    .tabele tbody tr:hover{
-        background: rgba(255, 0, 0, 0.384);
-    }
-    
-    .tabele td{
-        padding: 8px 4px;
-        text-align: left;
-    }
-    h4{			font: 22px FreeMono, monospace;
+p {font: 14px Arial, sans-serif; 
+color: red; }
+
+h1 {
+	font: 50px URW Chancery L, cursive;
+color: white;
+}
+
+a:link
+{
+	font: 45px URW Chancery L, cursive;
+   color: white;
+   float: center;
+}
+
+a:visited
+{	   color: rgb(0, 255, 8);
+	   float: center;
+font: 60px URW Chancery L, cursive;
+}
+
+a:hover
+{
+   color: #00ff08;
+   font: 60px URW Chancery L, cursive;
+}
+
+h2 {
+	font: 32px URW Chancery L, cursive;
+color: #0d00ff;
+		margin-left: 10px;
+		margin-right: 10px;
+}
+
+p{	font: 22px Arial, sans-serif; 
+	color: white; 
+text-align: center;}
+
+h3{			font: 22px FreeMono, monospace;
 		color: white;
 		margin-left: 10px;
 		margin-right: 10px;
 }
-.przycisk {
-    background: transparent;
-    padding: 13px;
-    border: 2px solid #fff;
-    color: #fff;
-    transition: 1.2s;
-    width: 9%;
-    float: center;
-    height:100px;
-    font-family: Comic Sans MS, Comic Sans, cursive;
-    margin-bottom: 10px;
-    
-  }
-  
-  .przycisk:hover {
-    background: #fff;
-    color: black;
-    cursor: pointer;
-    width:8%;
-    float: center;
-    height:100px;
-    font-family: Comic Sans MS, Comic Sans, cursive;
-    
-  }
-  
-  
-  
+
+table{
+border:  3px solid black;
+background-color: orange;
+
+}
+
+tr{
+border:  1px solid black;
+}
+
+th{
+border:  1px solid black; 
+font: 15px FreeMono, monospace;
+color: blue;
+}
+
+td{
+border:  1px solid black; 
+}
+fieldset{
+	background: linear-gradient(165deg, rgb(35, 150, 0) 0%, rgb(39, 195, 0) 35%, rgb(111, 255, 0) 75%);
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	font: 25px FreeMono, monospace;
+	color: #000b82;
+}
+
+legend{
+	font: 15px FreeMono, monospace;
+		color: white;
+}
+
+
+	input:invalid {
+		border: 2px solid red;
+	  }
+	  input:valid {
+		border: 2px solid black;
+	  }
+
+      .button {
+        background-color: #004102;
+        border: none;
+        color: white;
+        padding: 15px ;
+        margin: 2px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        }
